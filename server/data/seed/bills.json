@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ca-AB853",
+    "bill_number": "AB-853",
+    "title": "California AI Transparency Act",
+    "summary": "Requires developers of large-scale AI systems to provide transparency about training data and model capabilities before deployment. Mandates public disclosure of AI-generated content.",
+    "session": "20232024",
+    "status": "chaptered",
+    "topics": ["AI", "Technology", "Transparency"],
+    "full_text_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB853"
+  },
+  {
+    "id": "ca-SB53",
+    "bill_number": "SB-53",
+    "title": "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act",
+    "summary": "Establishes safety standards for large AI models, requiring safety testing and reporting for models above certain computational thresholds. Creates CalCompute public cloud infrastructure.",
+    "session": "20232024",
+    "status": "chaptered",
+    "topics": ["AI", "Technology", "Safety"],
+    "full_text_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB53"
+  },
+  {
+    "id": "ca-SB1047",
+    "bill_number": "SB-1047",
+    "title": "Safe AI Innovation Act",
+    "summary": "Requires developers of large AI models to implement safety protocols and whistleblower protections. Vetoed by Governor Newsom in September 2024.",
+    "session": "20232024",
+    "status": "vetoed",
+    "topics": ["AI", "Technology", "Safety"],
+    "full_text_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1047"
+  },
+  {
+    "id": "ca-AB2013",
+    "bill_number": "AB-2013",
+    "title": "AI Training Data Transparency",
+    "summary": "Requires generative AI providers to disclose the sources of training data used in their models. Aims to increase transparency in AI development.",
+    "session": "20232024",
+    "status": "chaptered",
+    "topics": ["AI", "Technology", "Transparency"],
+    "full_text_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2013"
+  },
+  {
+    "id": "ca-AB2930",
+    "bill_number": "AB-2930",
+    "title": "Automated Decision Tools",
+    "summary": "Regulates the use of automated decision-making tools in employment, housing, and healthcare. Requires impact assessments and human oversight.",
+    "session": "20232024",
+    "status": "failed",
+    "topics": ["AI", "Technology", "Labor", "Privacy"],
+    "full_text_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2930"
+  }
+]

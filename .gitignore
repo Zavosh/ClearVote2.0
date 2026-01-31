@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables (contains API keys)
+.env
+.env.local
+.env.*.local
+
+# Database files (too large, contains personal data)
+*.db
+*.db-shm
+*.db-wal
+server/data/*.db
+server/database.db
+
+# Build outputs
+dist/
+build/
+client/dist/
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Server
+*.pid

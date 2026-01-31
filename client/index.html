@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClearVote 2.0 - AI-Powered Civic Transparency</title>
+    <style>
+      /* Critical CSS to prevent FOUC - must match app background exactly */
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background-color: #f3f4f6;
+        min-height: 100vh;
+      }
+      #root {
+        min-height: 100vh;
+        background-color: #f3f4f6;
+      }
+      /* Loading spinner styles - matching app background */
+      .loading-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #f3f4f6;
+        color: #1f2937;
+      }
+      .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border: 4px solid #e5e7eb;
+        border-top: 4px solid #2563eb;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .loading-text {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #1e3a8a;
+      }
+      .loading-subtext {
+        font-size: 1rem;
+        color: #6b7280;
+      }
+      /* Fade out animation for smooth transition */
+      .fade-out {
+        animation: fadeOut 0.3s ease-out forwards;
+      }
+      @keyframes fadeOut {
+        from { opacity: 1; }
+        to { opacity: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- Loading state shown before React loads -->
+      <div class="loading-container" id="initial-loader">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">ClearVote 2.0</div>
+        <div class="loading-subtext">Loading AI-Powered Civic Transparency...</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

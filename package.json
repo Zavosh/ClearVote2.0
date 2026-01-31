@@ -1,0 +1,33 @@
+{
+  "name": "clearvote-2.0",
+  "version": "1.0.0",
+  "description": "AI-powered civic transparency platform for California legislature",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm run dev",
+    "server:start": "cd server && npm start",
+    "client:build": "cd client && npm run build",
+    "seed": "cd server && npm run seed",
+    "fetch-votes": "cd server && npm run fetch-votes",
+    "analyze": "cd server && npm run analyze"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "politics",
+    "transparency",
+    "california",
+    "legislature",
+    "ai",
+    "civic-tech"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ca-wiener",
+    "name": "Scott Wiener",
+    "party": "Democratic",
+    "chamber": "upper",
+    "district": "11",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/wiener.jpg",
+    "twitter_handle": "@Scott_Wiener",
+    "email": "senator.wiener@senate.ca.gov"
+  },
+  {
+    "id": "ca-wicks",
+    "name": "Buffy Wicks",
+    "party": "Democratic",
+    "chamber": "lower",
+    "district": "14",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/wicks.jpg",
+    "twitter_handle": "@BuffyWicks",
+    "email": "assemblymember.wicks@assembly.ca.gov"
+  },
+  {
+    "id": "ca-bauer-kahan",
+    "name": "Rebecca Bauer-Kahan",
+    "party": "Democratic",
+    "chamber": "lower",
+    "district": "16",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/bauer-kahan.jpg",
+    "twitter_handle": "@BauerKahan",
+    "email": "assemblymember.bauer-kahan@assembly.ca.gov"
+  },
+  {
+    "id": "ca-low",
+    "name": "Evan Low",
+    "party": "Democratic",
+    "chamber": "lower",
+    "district": "26",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/low.jpg",
+    "twitter_handle": "@Evan_Low",
+    "email": "assemblymember.low@assembly.ca.gov"
+  },
+  {
+    "id": "ca-becker",
+    "name": "Josh Becker",
+    "party": "Democratic",
+    "chamber": "upper",
+    "district": "13",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/becker.jpg",
+    "twitter_handle": "@JoshBeckerCA",
+    "email": "senator.becker@senate.ca.gov"
+  },
+  {
+    "id": "ca-essayli",
+    "name": "Bill Essayli",
+    "party": "Republican",
+    "chamber": "lower",
+    "district": "63",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/essayli.jpg",
+    "twitter_handle": "@BillEssayli",
+    "email": "assemblymember.essayli@assembly.ca.gov"
+  },
+  {
+    "id": "ca-gallagher",
+    "name": "James Gallagher",
+    "party": "Republican",
+    "chamber": "lower",
+    "district": "3",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/gallagher.jpg",
+    "twitter_handle": "@J_GallagherAD3",
+    "email": "assemblymember.gallagher@assembly.ca.gov"
+  },
+  {
+    "id": "ca-dahle",
+    "name": "Brian Dahle",
+    "party": "Republican",
+    "chamber": "upper",
+    "district": "1",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/dahle.jpg",
+    "twitter_handle": "@briandahle",
+    "email": "senator.dahle@senate.ca.gov"
+  },
+  {
+    "id": "ca-wahab",
+    "name": "Aisha Wahab",
+    "party": "Democratic",
+    "chamber": "upper",
+    "district": "10",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/wahab.jpg",
+    "twitter_handle": "@aisha_wahab",
+    "email": "senator.wahab@senate.ca.gov"
+  },
+  {
+    "id": "ca-kalra",
+    "name": "Ash Kalra",
+    "party": "Democratic",
+    "chamber": "lower",
+    "district": "25",
+    "photo_url": "https://leginfo.legislature.ca.gov/faceimages/kalra.jpg",
+    "twitter_handle": "@Ash_Kalra",
+    "email": "assemblymember.kalra@assembly.ca.gov"
+  }
+]
