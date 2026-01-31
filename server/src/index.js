@@ -11,7 +11,6 @@ const billsRoutes = require('./routes/bills');
 const statementsRoutes = require('./routes/statements');
 const discrepanciesRoutes = require('./routes/discrepancies');
 const analyzeRoutes = require('./routes/analyze');
-const checkPromiseRoutes = require('./routes/checkPromise');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -26,7 +25,6 @@ app.use('/api/bills', billsRoutes);
 app.use('/api/statements', statementsRoutes);
 app.use('/api/discrepancies', discrepanciesRoutes);
 app.use('/api/analyze', analyzeRoutes);
-app.use('/api/check-promise', checkPromiseRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {

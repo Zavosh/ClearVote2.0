@@ -5,7 +5,6 @@ import LegislatorDetailPage from './pages/LegislatorDetailPage'
 import BillsPage from './pages/BillsPage'
 import BillDetailPage from './pages/BillDetailPage'
 import DiscrepancyPage from './pages/DiscrepancyPage'
-import CampaignPromiseChecker from './components/CampaignPromiseChecker'
 
 function App() {
   const navLinkClass = ({ isActive }) => 
@@ -26,7 +25,6 @@ function App() {
                 <NavLink to="/legislators" className={navLinkClass}>Legislators</NavLink>
                 <NavLink to="/bills" className={navLinkClass}>Bills</NavLink>
                 <NavLink to="/discrepancies" className={navLinkClass}>Discrepancies</NavLink>
-                <NavLink to="/check-promise" className={navLinkClass}>Check Promise</NavLink>
               </nav>
             </div>
           </div>
@@ -42,7 +40,6 @@ function App() {
             <Route path="/bills/:id" element={<BillDetailPage />} />
             <Route path="/discrepancies" element={<DiscrepancyPage />} />
             <Route path="/discrepancies/:id" element={<DiscrepancyPage />} />
-            <Route path="/check-promise" element={<CampaignPromiseChecker />} />
           </Routes>
         </main>
 
